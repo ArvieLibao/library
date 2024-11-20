@@ -329,13 +329,13 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
    - **Method**: `POST`
    - **Endpoint**: `https://127.0.0.1/LIBRARY/public/books-view`
    - **Request**:
-     ```json
+   ```json
       {
-      "bookid" : 28,
-      "authorid" : 31,
-      "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjQ3MzQsImV4cCI6MTczMjEyNTAzNCwiZGF0YSI6eyJzdGF0dXMiOiJhdmFpbGFibGUifX0.HD4NF3R4eXudMEX6jG5bZSMKFgsbgEDmNydKy1kH0h4"
+         "bookid" : 28,
+         "authorid" : 31,
+         "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjQ3MzQsImV4cCI6MTczMjEyNTAzNCwiZGF0YSI6eyJzdGF0dXMiOiJhdmFpbGFibGUifX0.HD4NF3R4eXudMEX6jG5bZSMKFgsbgEDmNydKy1kH0h4"
       }
-     ```
+   ```
    - **Response**:
       - **Success**
          ```json
