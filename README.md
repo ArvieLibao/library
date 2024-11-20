@@ -64,26 +64,26 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
    - **Request**:
       ```json
       {
-      "username" : "Law",
-      "password" : "Renz"
+         "username" : "Law",
+         "password" : "Renz"
       }
       ```
    - **Response**:
      - **Success**
          ```json
          {
-         "status": "success",
-         "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjM3NTIsImV4cCI6MTczMjEyNDA1MiwiZGF0YSI6eyJ1c2VyaWQiOjU1fX0.na0JHDPIGomwkwEIx60YXo2znC4sr4eR5cB8eufS0EU",
-         "data": null
+            "status": "success",
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjM3NTIsImV4cCI6MTczMjEyNDA1MiwiZGF0YSI6eyJ1c2VyaWQiOjU1fX0.na0JHDPIGomwkwEIx60YXo2znC4sr4eR5cB8eufS0EU",
+            "data": null
          }
          ```
       - **Failure**
          ```json
          {
-         "status": "fail",
-         "data": {
-            "title": "Authentication Failed!"
-         }
+            "status": "fail",
+            "data": {
+               "title": "Authentication Failed!"
+            }
          }
          ```
 ---
@@ -93,7 +93,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
    - **Request**:
      ```json
       {
-      "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjM5MjcsImV4cCI6MTczMjEyNDIyNywiZGF0YSI6eyJ1c2VyaWQiOjU2fX0.EDWQH41ODvW48wsFy4uN_sjoNAIbMCMRf-5xX7hZTj0"
+         "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjM5MjcsImV4cCI6MTczMjEyNDIyNywiZGF0YSI6eyJ1c2VyaWQiOjU2fX0.EDWQH41ODvW48wsFy4uN_sjoNAIbMCMRf-5xX7hZTj0"
       }
      ```
    - **Response**:
@@ -105,17 +105,17 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
                "users": [
                   {
                   "userid": 30,
-                  "username": "Reendhel",
+                  "username": "Niccolo",
                   "password": "7b5f0efda0022f3cc05bd0fcb1e0bc6890e7fee792a1c220d9351e0914e3aa79"
                   },
                   {
                   "userid": 31,
-                  "username": "Mark Angelo",
+                  "username": "Marcus",
                   "password": "03ccf2f9fdfa285e6c5e9a57c9d022d0d986364532749dac357b723c129424af"
                   },
                   {
                   "userid": 32,
-                  "username": "Nhora",
+                  "username": "Magnus",
                   "password": "0a00079dcd09ed203129d3a15331cc4bcb9c03d94b22a83222e7aaaf9c1bac3b"
                   }
                ],
@@ -151,7 +151,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             "data": {
                "user": {
                   "userid": 32,
-                  "username": "Nhora",
+                  "username": "Magnus",
                   "password": "0a00079dcd09ed203129d3a15331cc4bcb9c03d94b22a83222e7aaaf9c1bac3b"
                },
                "new_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjQyNDUsImV4cCI6MTczMjEyNDU0NSwiZGF0YSI6eyJzdGF0dXMiOiJhdmFpbGFibGUifX0.PNlldNYCYGE7-xNdD8m2R9xHLbhQzgMPLVkBCq6p428"
