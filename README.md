@@ -365,9 +365,9 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
    - **Endpoint**: `https://127.0.0.1/LIBRARY/public/books-all`
    - **Request**:
      ```json
-   {
-      "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjQ4MTAsImV4cCI6MTczMjEyNTExMCwiZGF0YSI6eyJzdGF0dXMiOiJhdmFpbGFibGUifX0.fwQ69bf0NrxE-RxNRfgl5QGHJt9ORlTZHeLCc_v2Kag"
-   }
+      {
+         "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjQ4MTAsImV4cCI6MTczMjEyNTExMCwiZGF0YSI6eyJzdGF0dXMiOiJhdmFpbGFibGUifX0.fwQ69bf0NrxE-RxNRfgl5QGHJt9ORlTZHeLCc_v2Kag"
+      }
      ```
    - **Response**:
       - **Success**
