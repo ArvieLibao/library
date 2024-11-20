@@ -36,8 +36,8 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
    - **Request**:
       ```json
       {
-      "username" : "Law",
-      "password" : "Renz"
+         "username" : "Law",
+         "password" : "Renz"
       }
       ```
    - **Response**:
@@ -48,7 +48,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
              "data": null
          }
          ```
-      - **Failure**
+      - **Fail**
          ```json
          {
           "status": "fail",
@@ -77,7 +77,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             "data": null
          }
          ```
-      - **Failure**
+      - **Fail**
          ```json
          {
             "status": "fail",
@@ -123,7 +123,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             }
          }
          ```
-      - **Failure**
+      - **Fail**
          ```json
          {
             "status": "fail",
@@ -158,7 +158,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             }
          }
          ```
-      - **Failure**
+      - **Fail**
          ```json
          {
             "status": "fail",
@@ -188,7 +188,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             }
          }
          ```
-      - **Failure**
+      - **Fail**
          ```json
          {
             "status": "fail",
@@ -200,7 +200,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
 ---
 ### Edit a User
    - **Method**: `POST`
-   - **Endpoint**: `http://127.0.0.1/library/public/books_author/add`
+   - **Endpoint**: `http://127.0.0.1/LIBRARY/public/user-edit`
    - **Request**:
      ```json
       {
@@ -219,8 +219,8 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
                "new_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjQ0NjcsImV4cCI6MTczMjEyNDc2NywiZGF0YSI6eyJzdGF0dXMiOiJhdmFpbGFibGUifX0.65jIKDbO2q7GI0w9LVVzLU75soPnFf2PglikuAyco4g"
             }
          }
-            ```
-      - **Failure**
+         ```
+      - **Fail**
          ```json
          {
             "status": "fail",
@@ -251,7 +251,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             }
          }
          ```
-     - **Failure**
+     - **Fail**
          ```json
          {
             "status": "fail",
@@ -284,7 +284,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             }
          }
          ```
-     - **Failure**
+     - **Fail**
          ```json
          {
             "status": "fail",
@@ -315,7 +315,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
          }
          }
          ```
-      - **Failure**
+      - **Fail**
          ```json
          {
             "status": "fail",
@@ -350,7 +350,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             }
          }
          ```
-      - **Failure**
+      - **Fail**
          ```json
          {
             "status": "fail",
@@ -401,7 +401,7 @@ This project is a RESTful API built with the Slim framework and Firebase JWT for
             }
          }
          ```
-      - **Failure**
+      - **Fail**
          ```json
          {
             "status": "fail",
